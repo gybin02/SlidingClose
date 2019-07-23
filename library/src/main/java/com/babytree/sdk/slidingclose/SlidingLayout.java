@@ -48,7 +48,7 @@ public class SlidingLayout extends FrameLayout {
 
     private void initView(Context context) {
         mScroller = new Scroller(context);
-        mLeftShadow = getResources().getDrawable(R.drawable.left_shadow);
+        mLeftShadow = getResources().getDrawable(R.drawable.bb_left_shadow);
         int density = (int) getResources().getDisplayMetrics().density;
         mShadowWidth = SHADOW_WIDTH * density;
     }

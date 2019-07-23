@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply from: 'http://git.mtmm.com/calendar/common/raw/master/mvn.gradle'
+
 
 android {
     compileSdkVersion 25
