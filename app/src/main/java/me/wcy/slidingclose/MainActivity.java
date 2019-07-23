@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.babytree.sdk.slidingclose.SlidingActivity;
+
 public class MainActivity extends SlidingActivity {
 
     @Override

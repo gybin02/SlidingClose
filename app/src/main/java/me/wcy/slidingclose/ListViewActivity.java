@@ -7,6 +7,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.babytree.sdk.slidingclose.SlidingActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 

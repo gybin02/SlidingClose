@@ -7,9 +7,6 @@
 
 解决了**滑动冲突**。
 
-* 项目地址：https://github.com/wangchenyan/slidingclose
-* 有问题可以提Issues
-
 ## 截图
 ![](https://raw.githubusercontent.com/wangchenyan/slidingclose/master/art/screenshot.gif)
 
@@ -248,23 +245,7 @@ public class SlidingActivity extends AppCompatActivity {
 如果不需要滑动关闭，则重写 `enableSliding` 并返回 false 。
 
 ## 使用
-- 下载源码。
+- compile 
 - 将 Activity 的基类继承 SlideActivity 。
 - 将需要滑动关闭的 Activity 的 theme 指定为 `AppTheme.Slide` 。
 - 将不需要滑动关闭的 Activity （如 App 主界面）的 theme 指定为 `AppTheme` ，重写 `enableSliding` 并返回 false 。
-
-## License
-
-    Copyright 2016 wangchenyan
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.

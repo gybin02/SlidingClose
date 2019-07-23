@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.babytree.sdk.slidingclose.SlidingActivity;
+
 public class ViewPagerActivity extends SlidingActivity implements View.OnClickListener {
 
     @Override

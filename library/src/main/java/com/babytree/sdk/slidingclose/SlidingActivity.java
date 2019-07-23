@@ -1,4 +1,4 @@
-package me.wcy.slidingclose;
+package com.babytree.sdk.slidingclose;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package me.wcy.slidingclose;
+package com.babytree.sdk.slidingclose;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.Scroller;
+
+import com.seeker.library.R;
 
 /**
  * Created by chenyan.wang on 2015/10/29.
