@@ -60,7 +60,8 @@ public class SlidingActivity extends AppCompatActivity {
 如果不需要滑动关闭，则重写 `enableSliding` 并返回 false 。
 
 ## 使用
-- compile 
+-     compile 'com.babytree.tool:slide-close:0.0.0.2-SNAPSHOT'
+ 
 - 将 Activity 的基类继承 SlideActivity 。
 - 将需要滑动关闭的 Activity 的 theme 指定为 `AppTheme.Slide` 。
 - 将不需要滑动关闭的 Activity （如 App 主界面）的 theme 指定为 `AppTheme` ，重写 `enableSliding` 并返回 false 。
