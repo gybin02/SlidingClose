@@ -1,0 +1,20 @@
+publish {
+    userOrg = 'gybin02'      //bintray注册的用户名
+    groupId = 'com.babytree.tool'         //compile引用时的第1部分groupId
+    artifactId = 'slide-close'     //compile引用时的第2部分项目名
+    //这个地方要release的才行；SNAPSHOT不报错
+    publishVersion = '0.0.1'    //compile引用时的第3部分版本号
+    desc = '自动化且易用'
+    website = 'https://github.com/gybin02/RouterKiter'
+    bintrayUser = 'gybin02'
+    bintrayKey = '487217a54592ddc6387231fd7e7c0cf869ff3b7b'
+    dryRun = false
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    failOnError false
+    options.encoding "utf-8"
+    options.charSet 'utf-8'
+}

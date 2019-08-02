@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 apply from: 'http://git.mtmm.com/calendar/common/raw/master/mvn.gradle'
+apply plugin: 'com.novoda.bintray-release'
+
 
 
 android {
@@ -31,3 +33,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+//要放在最下面
+apply from: 'jcenter.gradle'
